@@ -52,11 +52,6 @@ swagger em desenvolvimento...
 * [Bcrypt](https://www.npmjs.com/package/bcrypt) - Para criptografar a senha do usuario
 * [JWT](https://jwt.io/introduction) - Para gerar o token de autenticação
 * [yup](https://www.npmjs.com/package/yup) - Para validar os dados recebidos
-* [Mongoose](https://mongoosejs.com/docs/guide.html) - ODM para mongoDB
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
 
 ## 🎁 Expressões de gratidão
 
