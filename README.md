@@ -30,7 +30,7 @@ Abra Git Bash na pasta que deseja clonar o repositorio
 
 Digite git clone e cole a URL já copiada.
 ```
-https://github.com/LdeLiu/reservaDeHoteis.git
+git clone https://github.com/LdeLiu/reservaDeHoteis.git
 ```
 Pressione ENTER para criar seu clone local.
 
