@@ -1,4 +1,4 @@
-# Api - Sisteama de reservas de Hoteis
+# Api - Sistema de reservas de Hoteis
 
 A api tem como finalidade o uso para o cliente criar, vizualisar e deletar reservas em um determinado hotel. 
 
