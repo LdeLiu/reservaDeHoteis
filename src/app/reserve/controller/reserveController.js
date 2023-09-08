@@ -20,7 +20,7 @@ class ReserveController{
         }
 
         const result = await this.service.create(newData)
-        return res.status(result.error ? 400 : 200).json(result)
+        return res.status(result.error ? 400 : 201).json(result)
     }
 
     async getReserves(req,res){
@@ -30,7 +30,7 @@ class ReserveController{
             return res.status(400).json('params missing')
         }
         const result = await this.service.getReserves(idUser)
-        return res.status(result.error ? 400 : 200).json(result)
+        return res.status(result.error ? 400 : 201).json(result)
     }
 
     async cancelReserves(req,res){
@@ -39,7 +39,7 @@ class ReserveController{
             return res.status(400).json('params missing')
         }
         const result = await this.service.cancelReserves(idReserve)
-        return res.status(result.error ? 400 : 200).json(result)
+        return res.status(result.error ? 400 : 201).json(result)
     }
 }
 

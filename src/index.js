@@ -1,6 +1,12 @@
 import express from 'express'
+import swaggerUi from 'swagger-ui-express'
 import dotenv from 'dotenv'
 dotenv.config()
+
+//recriar o require para conseguir importar  json
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const swaggerDocs = require('./docs/swagger.json');
 
 import { Database } from './database/Database.js'
 import { userRouter } from './routers/userRouter.js'
@@ -13,6 +19,8 @@ Database.initialize()
 const app = express()
 
 app.use(express.json())
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 
 app.use(userRouter)
 app.use(AuthMiddleware.handle)

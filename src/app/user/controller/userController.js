@@ -13,7 +13,7 @@ class UserController{
         }
 
         const result = await this.service.create(body)
-        return res.status(result.error ? 400 : 200).json(result)
+        return res.status(result.error ? 400 : 201).json(result)
     }
 
     async singIn(req,res){
@@ -24,7 +24,7 @@ class UserController{
         }
 
         const result = await this.service.singIn(body)
-        return res.status(result.error ? 400 : 200). json(result)
+        return res.status(result.error ? 400 : 201). json(result)
     }
 }
 
