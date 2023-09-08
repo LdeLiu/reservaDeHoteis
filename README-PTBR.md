@@ -18,10 +18,10 @@ NodeJs
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Acima da lista de arquivos, clique em < > Código.<br>
 
-Acima da lista de arquivos, clique em < > Código.
 <img alt="License" width="300px" src="https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp">
+
 Copie a URL do repositório.
 <img alt="License" width="300px" src="https://docs.github.com/assets/cb-45942/mw-1440/images/help/repository/https-url-clone-cli.webp">
 Abra Git Bash na pasta que deseja clonar o repositorio
