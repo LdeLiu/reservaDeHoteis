@@ -41,7 +41,7 @@ Teste em Desenvolvimento...
 
 ## 📦 Implantação
 
-swagger em desenvolvimento...
+visualize o swagger na rota /api-docs. 
 
 ## 🛠️ Construído com
 
@@ -52,6 +52,7 @@ swagger em desenvolvimento...
 * [Bcrypt](https://www.npmjs.com/package/bcrypt) - Para criptografar a senha do usuario
 * [JWT](https://jwt.io/introduction) - Para gerar o token de autenticação
 * [yup](https://www.npmjs.com/package/yup) - Para validar os dados recebidos
+* [Swagger](https://swagger.io) - Para a documentação
 
 ## 🎁 Expressões de gratidão
 
