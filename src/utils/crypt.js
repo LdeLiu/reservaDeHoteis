@@ -1,4 +1,4 @@
-import bcrypt, { compareSync } from 'bcrypt'
+import bcrypt from 'bcrypt'
 
 class Crypt{
     static encrypt(text){
@@ -6,7 +6,7 @@ class Crypt{
     }
 
     static compare(text, hash){
-        return bcrypt,compareSync(text, hash)
+        return bcrypt.compareSync(text, hash)
     }
 }
 
